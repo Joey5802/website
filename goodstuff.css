@@ -1,5 +1,5 @@
 h1 {
-  text-align: center;
+  text-align: center; /*the temporary logo, among other things*/
   color: #000066;
   font-family: "Comic Sans MS";
 }
@@ -11,10 +11,12 @@ h2{
   font-size: 12px;
 }
 
-.buttons {
+.buttons { /*these are the buttons found at the top of the page.*/
     text-align: center;
     margin-top: 30px;
-}
+    cursor:pointer
+} 
+
  
 a{
     background-color: #0066ff;
