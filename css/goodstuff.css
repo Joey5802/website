@@ -24,11 +24,16 @@ h2{
  color:red;
 } 
 
-.logo{
+.logo{ /*The main site logo*/
   display: block;
   margin: 0 auto;
   height: 102;
   width: 298;
+}
+
+.welcome{ /*This is the ugly GIF that welcomes you to the site.*/
+  display: block;
+    margin: 0 auto;
 }
 
  
