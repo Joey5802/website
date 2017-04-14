@@ -20,7 +20,8 @@ h2{
 .buttons { /*these are the buttons found at the top of the page.*/
     text-align: center;
     margin-top: 30px;
-    cursor: hand; /*do NOT remove this, or your head will be mine. Jk on the last part.*/
+    cursor: hand;/*do NOT remove this, or your head will be mine. Jk on the last part.*/
+ background-color: red;
 } 
 
 .logo{
@@ -35,7 +36,7 @@ a{
     background-color: #0066ff;
     padding: 10px 30px 10px 30px;
     border-radius: 15px;
-    font-family: helvetica;
+    font-family: Arial Rounded MT;
     margin: 0 auto;
     color: black;
     text-decoration: none;
