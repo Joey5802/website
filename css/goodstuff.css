@@ -30,6 +30,14 @@ h2.blog414 {
   font-family: "Arial Rounded MT";
   font-size: 20px;
   color: black;
+}
+
+h2.brandnew{
+  text-align: center;
+  font-family: Arial;
+  font-size: 15px;
+  color: darkblue;
+}
 
 #container {
   height: 100%;
