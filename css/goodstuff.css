@@ -18,6 +18,12 @@ h2.thxcont {
     color: darkblue;
 }
 
+h3{
+  text-align: center;
+  font-family: "Papyrus";
+  background-color: red;
+}
+
 h2{
   text-align: center;
   font-family: arial;
