@@ -11,6 +11,13 @@ h1.aboutthx {
   color: red;
 }
 
+h1.bestdesign {
+  text-align: center;
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  color: cyan;
+}
+
 h2.thxcont {
   text-align: center;
   font-family: Comic Sans MS;
