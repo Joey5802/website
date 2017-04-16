@@ -44,7 +44,6 @@ h5{
   font-size: 12px;
   position: fixed;
   bottom: 0;
-  float: right;
 }
 
 h2{
@@ -100,7 +99,7 @@ h2.brandnew{
 }
 
 .mac{
-  float: center;
+  vertical-align: middle;
   margin: 0 auto;
 
  
