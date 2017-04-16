@@ -21,7 +21,7 @@ h1.bestdesign {
 h2.thxcont {
   text-align: center;
   font-family: Comic Sans MS;
-  font-size: 20px
+  font-size: 20px;
     color: darkblue;
 }
 
@@ -31,7 +31,7 @@ h3{
   background-color: red;
 }
 
-h3.414story{
+h3.414story {
   text-align: center;
   font-family: arial;
   color: darkblue;
@@ -39,14 +39,14 @@ h3.414story{
   background-color: transparent;
 }
 
-h5{
+h5 {
   text-align: center;
   font-size: 12px;
   position: fixed;
   bottom: 0;
 }
 
-h2{
+h2 {
   text-align: center;
   font-family: arial;
   color:  darkblue;
@@ -78,7 +78,7 @@ h2.brandnew{
     margin-top: 30px;
     cursor: hand;/*do NOT remove this, or your head will be mine. Jk on the last part.*/
  color:red;
-  font-family: "Comic Sans MS"
+  font-family: "Comic Sans MS";
 } 
 
 .logo{ /*The main site logo*/
@@ -101,6 +101,7 @@ h2.brandnew{
 .mac{
   vertical-align: middle;
   margin: 0 auto;
+}
 
  
 a{
@@ -112,11 +113,11 @@ a{
     color: black;
     text-decoration: none;
 }
-body{
+
+  body{
   background: #339966;
   background: -webkit-linear-gradient(blue, yellow); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(blue, yellow); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(blue, yellow); /* For Firefox 3.6 to 15 */
   background: linear-gradient(blue, yellow); /* Standard syntax */
-  
-}
+  }
