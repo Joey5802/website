@@ -67,10 +67,11 @@ h2.owner{
   color: black;
 }
 
-#container {
+.container {
   height: 100%;
   width: 100%;
-  position: fixed;
+  position: absolute;
+  
 }
 
 .buttons { /*these are the buttons found at the top of the page.*/
