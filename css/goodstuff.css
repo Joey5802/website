@@ -31,10 +31,10 @@ h3{
   background-color: red;
 }
 
-h3.414story {
+.417story {
   text-align: center;
   font-family: arial;
-  color: darkblue;
+  color: black;
   font-size: 12px;
   background-color: transparent;
 }
@@ -46,6 +46,12 @@ h5 {
   bottom: 0;
 }
 
+.april17 {
+  font-size: 25px;
+  font-family: arial;
+  text-align: center;
+}
+
 h2 {
   text-align: center;
   font-family: arial;
@@ -53,14 +59,20 @@ h2 {
   font-size: 12px;
 }
 
-h2.blog414 {
+.blog417 { 
+  text-align: center;
+  font-family: "Arial Rounded MT";
+  font-size: 20px;
+  color: black;
+}
+.417cont {
   text-align: center;
   font-family: "Arial Rounded MT";
   font-size: 20px;
   color: black;
 }
 
-h2.owner{
+.owner{
   text-align: center;
   font-family: Arial;
   font-size: 20px;
