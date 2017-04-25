@@ -100,6 +100,12 @@ h6.417cont {
   width: 298;
 }
 
+.mac{
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+}
+
 .welcome{ /*This is the ugly GIF that welcomes you to the site.*/
   display: block;
     margin: 0 auto;
