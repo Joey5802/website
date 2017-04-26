@@ -4,7 +4,7 @@ h1 {
   font-family: "Comic Sans MS";
 }
 
-h1.aboutthx {
+.aboutthx {
   text-align: center;
   font-family: Arial Rounded MT;
   font-size: 24px;
@@ -18,7 +18,7 @@ h1.meet {
   color: white;
 }
 
-h2.thxcont {
+.thxcont {
   text-align: center;
   font-family: Comic Sans MS;
   font-size: 20px;
@@ -31,7 +31,7 @@ h3{
   background-color: red;
 }
 
-.417story {
+h6.417story {
   text-align: center;
   font-family: arial;
   color: black;
@@ -65,8 +65,9 @@ h2 {
   font-size: 20px;
   color: black;
 }
-h6.417cont {
+.417cont {
   text-align: center;
+  font-family: "Arial Rounded MT";
   font-size: 20px;
   color: black;
 }
@@ -96,14 +97,8 @@ h6.417cont {
 .logo{ /*The main site logo*/
   display: block;
   margin: 0 auto;
-  height: 102;
-  width: 298;
-}
-
-.mac{
-  position: fixed; /* or absolute */
-  top: 50%;
-  left: 50%;
+  height: 89;
+  width: 365;
 }
 
 .welcome{ /*This is the ugly GIF that welcomes you to the site.*/
@@ -114,6 +109,22 @@ h6.417cont {
 .me_irl{
   display:block;
   margin: 0 auto;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.divider1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.mac {
+  position: absolute;
+  top: 30px;
+  left: 70px;
 }
 
  
