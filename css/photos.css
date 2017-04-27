@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+}
+
+.logo{
+  display: block;
+  margin: 0 auto;
+  height: 89;
+  width: 365;
+}
+
+.buttons { /*these are the buttons found at the top of the page.*/
+    text-align: center;
+    margin-top: 30px;
+    cursor: hand;/*do NOT remove this, or your head will be mine. Jk on the last part.*/
+ color:red;
+  font-family: "Comic Sans MS";
+} 
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+b{
+    background-color: #0066ff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    font-family: Arial Rounded;
+    margin: 0 auto;
+    color: black;
+    text-decoration: none;
+}
+
+.soon{
+    text-align: center;
+    font-size: 35px;
+    color: darkgoldenrod;
+}
