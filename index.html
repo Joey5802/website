@@ -8,14 +8,18 @@
     <img class="logo" src="imgs/logo.png" alt="TechWalker"> <!--The Site Logo-->
     <div class="buttons">
         <a href="index.html" id="homeButton">Home</a>
-        <a href="html/blog.html" id="blogButton">Blog</a>
+        <a href="html/photos.html" id="blogButton">Photos</a>
         <a href="html/games.html" id="gamesButton">Games</a>
         <a href="html/about.html" id="aboutButton">About</a>
     </div>
-<audio autoplay loop>
+<audio autoplay loop id="tune">
     <source src= "Footloos-Troy_Bro-876_hifi.mp3" type="audio/mpeg">
 Your browser does not support audio, it seems. C'est dommage! Lo Siento! That's too bad!
 </audio>
+    <script>
+  var audio = document.getElementById("tune");
+  audio.volume = 0.2;
+</script>
 
     <br>
     <hr>
@@ -25,7 +29,10 @@ Your browser does not support audio, it seems. C'est dommage! Lo Siento! That's 
     <script src="js/thing.js" id="Button"></script>
     <img class="welcome" src="imgs/welcome.gif" alt="TechWalker's Website">
     <h1 class= "meet">Thank you for paying a visit to <b>HTTP://WWW.TECHWALKER.TK/</b>. We hope you enjoy your stay. While you are here, please take a moment to meet our <i>OWNER AND OPERATOR</i>.</h1>
-    <img class="me_irl" src="imgs/meirl.jpeg" alt="THE OWNER AND OPERATOR" style="width:228px;height:228px;"> <!--Glorious picture of our leader-->
+    <video class="welcomevid" width="400" controls>
+  <source src="welcome1.mov">
+  Your browser does not support HTML5 video.
+</video> <!--Glorious video of our leader-->
     <h2 class="owner">
         Here you can view our glorious <i>OWNER AND OPERATOR</i>, whom you may call {REDACTED}.
     </h2>

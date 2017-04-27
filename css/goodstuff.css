@@ -25,6 +25,12 @@ h1.meet {
     color: darkblue;
 }
 
+.welcomevid{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 h3{
   text-align: center;
   font-family: "Papyrus";
@@ -111,6 +117,10 @@ h2 {
   margin: 0 auto;
 }
 
+.photo{
+    display: inline-block;
+}
+
 .parent {
   position: relative;
   top: 0;
@@ -127,6 +137,11 @@ h2 {
   left: 70px;
 }
 
+.photos {
+    font-family: Arial;
+    text-align: center;
+    color: black;
+}
  
 a{
     background-color: #0066ff;
