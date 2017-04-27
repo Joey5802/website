@@ -38,32 +38,21 @@ h1 {
       text-align: center;
     }
 
-h1.meet {
-  text-align: center;
-  font-family: Comic Sans MS;
-  font-size: 20px;
-  color: white;
-}
-
-.thxcont {
-  text-align: center;
-  font-family: Comic Sans MS;
-  font-size: 20px;
-  color: darkblue;
-}
-
-.welcomevid {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
 h3 {
+    color: darkblue;
+}
+
+.welcomevid{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h3{
   text-align: center;
   font-family: "Papyrus";
   background-color: red;
 }
-
 h5 {
   text-align: center;
   font-size: 12px;
@@ -84,21 +73,7 @@ h2 {
   font-size: 12px;
 }
 
-.blog417 {
-  text-align: center;
-  font-family: "Arial Rounded MT";
-  font-size: 20px;
-  color: black;
-}
-
-.417cont {
-  text-align: center;
-  font-family: "Arial Rounded MT";
-  font-size: 20px;
-  color: black;
-}
-
-.owner {
+.owner{
   text-align: center;
   font-family: Arial;
   font-size: 20px;
@@ -122,8 +97,15 @@ h2 {
   font-family: "Comic Sans MS";
 }
 
-.logo {
-  /*The main site logo*/
+.buttons { /*these are the buttons found at the top of the page.*/
+    text-align: center;
+    margin-top: 30px;
+    cursor: hand;/*do NOT remove this, or your head will be mine. Jk on the last part.*/
+ color:red;
+  font-family: "Comic Sans MS";
+} 
+
+.logo{ /*The main site logo*/
   display: block;
   margin: 0 auto;
   height: 89;
@@ -156,9 +138,8 @@ h2 {
   top: 0;
   left: 0;
 }
-
 .mac {
-  margin: 0 auto;
+  position: absolute;
   top: 30px;
   left: 70px;
 }
