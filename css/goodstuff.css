@@ -1,8 +1,8 @@
-h1 {
+.meet {
   text-align: center;
-  /*the temporary logo, among other things*/
-  color: #000066;
-  font-family: "Comic Sans MS";
+  color: whitesmoke;
+  font-family: "Helvetica";
+ font-size: 25px;
 }
 
 .aboutthx {
@@ -11,6 +11,78 @@ h1 {
   font-size: 24px;
   color: red;
 }
+
+.thanks {
+    vertical-align: middle;
+    display: block;
+    margin: 0;
+    left: 50px;
+    position: absolute;
+        left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 420px;
+}
+
+@keyframes welcomevid {
+    0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes logo {
+    0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+}
+
+.funding {
+    text-align: center;
+    font-family: "Impact";
+    font-size: 45px;
+    color: greenyellow;
+}
+
+.micro {
+    float: left;
+}
+
+.fundinfo1 {
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    color: black;
+    background-color: transparent;
+}
+
+
+.fundinfo2 {
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+    color: black;
+    background-color: transparent;
+    color: yellow;
+}
+
 
 .museum{
     width: 100%;
@@ -46,6 +118,8 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    animation-name: welcomevid;
+    animation-duration: 0.5s;
 }
 
 h3{
@@ -97,25 +171,21 @@ h2 {
   font-family: "Comic Sans MS";
 }
 
-.buttons { /*these are the buttons found at the top of the page.*/
-    text-align: center;
-    margin-top: 30px;
-    cursor: hand;/*do NOT remove this, or your head will be mine. Jk on the last part.*/
- color:red;
-  font-family: "Comic Sans MS";
-} 
-
 .logo{ /*The main site logo*/
   display: block;
   margin: 0 auto;
   height: 89;
   width: 365;
+ animation-name: logo;
+    animation-duration: 0.5s;
 }
 
 .welcome {
   /*This is the ugly GIF that welcomes you to the site.*/
   display: block;
   margin: 0 auto;
+    animation-name: welcomegif;
+    animation-duration: 0.5s;
 }
 
 .me_irl {
