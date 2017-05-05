@@ -151,7 +151,7 @@ h2 {
   text-align: center;
   font-family: Arial;
   font-size: 20px;
-  color: black;
+  color: greenyellow;
 }
 
 .container {
@@ -233,13 +233,13 @@ h2 {
 
 body {
   background: #339966;
-  background: -webkit-linear-gradient(blue, yellow) no-repeat;
+  background: -webkit-linear-gradient(limegreen, blue) no-repeat;
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(blue, yellow) no-repeat;
+  background: -o-linear-gradient(limegreen, blue) no-repeat;
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(blue, yellow) no-repeat;
+  background: -moz-linear-gradient(limegreen, blue) no-repeat;
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(blue, yellow) no-repeat;
+  background: linear-gradient(limegreen, blue) no-repeat;
   /* Standard syntax */
   height: 100vh;
 }
