@@ -1,0 +1,50 @@
+h1{
+    font-family: sans-serif;
+    text-align:center;
+    background-color: aqua
+}
+
+h2{
+    font-family: Arial;
+    text-align: center;
+    color: yellow;
+}
+
+h3{
+    color: black;
+    font-family: "Arial";
+    text-align: center;
+    font-size: 20px
+}
+
+
+body{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, black); /* Standard syntax */
+}
+
+h4{
+    color: white;
+    text-align: center;
+    font-family: "Arial Rounded MT";
+    font-weight: 400;
+}
+
+h5{
+    color: red;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 20;
+}
+
+h6{
+    color: orangered;
+    font-size: 15;
+    text-align: left;
+    
+}
+

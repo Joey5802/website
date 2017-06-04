@@ -24,6 +24,11 @@
     top: 420px;
 }
 
+y2soon {
+float: right;
+    vertical-align: middle;
+}
+
 @keyframes welcomevid {
     0% {
     transform: scale(0.1);
